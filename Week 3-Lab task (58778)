@@ -1,1 +1,118 @@
+package student;
+public class Student {
+
+    /**
+     * @param args the command line arguments
+     */
+    public String name;
+    public String city;
+    public int age;
+    public void display(){
+        System.out.println("Name is :"+name);
+        System.out.println("City is :"+city);
+        System.out.println("Age is :"+age);
+    }
+        
+    public static void main(String[] args) {
+        Student s1=new Student();
+        s1.name="Saiqa";
+        s1.city="Islamabad";
+        s1.age=20;
+        s1.display();
+        Student s2=new Student();
+        s2.name="Shabbir";
+        s2.city="Rawalpindi";
+        s2.age=65;
+        s2.display();
+            }
+        // TODO code application logic here
+    }
+
+//Task no: 2
+package area;
+
+/**
+ *
+ * @author Riphah
+ */
+public class Area {
+
+    /**
+     * @param args the command line arguments
+     */
+    public int length;
+    public int width;
+
+    public void calculateArea() {
+        int area = length * width;
+        System.out.println("Area: " + area);
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Area area = new Area();
+        area.length = 5;
+        area.width = 5;
+        area.calculateArea();
+    }
+    }
+    
+//Code no: 3
+package computer;
+
+/**
+ *
+ * @author Riphah
+ */
+public class Computer {
+
+    /**
+     * @param args the command line arguments
+     */
+     public String name;
+    public String configuration;
+    public int cost;
+    public String Osystem;
+
+    public void display() {
+        System.out.println("The company name is " + name);
+        System.out.println("The configuration is " + configuration);
+        System.out.println("Its Cost is " + cost);
+        System.out.println("Its operating System is " + Osystem);
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Computer computer = new Computer();
+        computer.name = "Apple";
+        computer.configuration = "i5";
+        computer.cost = 50000;
+        computer.Osystem = "IOS";
+        computer.display();
+    }
+    }
+
+//CODE NO:4
+public class Maximum {
+   
+    /**
+     * @param args the command line arguments
+     */
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int num1 = 10;
+        int num2 = 20;
+        int num3 = 30;
+        int max = 0;
+
+        if (num1 >= num2 && num1 >= num3) {
+            max = num1;
+        } else if (num2 >= num1 && num2 >= num3) {
+            max = num2;
+        } else {
+            max = num3;
+        }
+
+        System.out.println("The maximum number is: " + max);
+    }
+    }
 
