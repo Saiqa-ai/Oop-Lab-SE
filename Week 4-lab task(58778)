@@ -1,1 +1,117 @@
+package names;
+
+/**
+ *
+ * @author Riphah
+ */
+public class Names {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String[] names={"Elma","Saiqa","Sobia","fatima","Ayesha"};
+        for(int i=0;i<names.length;i++){
+            System.out.println(names[i]);
+        }
+    }
+    
+}
+
+//CODE 2
+
+public class Check {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int num=4;
+        if(num%2==0){
+            System.out.println("The number is even");
+        }
+        else
+            if(num%2!=0){
+                System.out.println("The number is odd");
+                    
+                    }
+                    
+        }
+    }
+
+//CODE NO:3
+package even;
+
+/**
+ *
+ * @author Riphah
+ */
+public class Even {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int num=1;
+        while(num<=20){
+            if(num%2==0){
+                System.out.println(num);
+    }
+    num++;
+}
+    }
+}
+
+
+
+//CODE :4
+
+package triangle;
+
+/**
+ *
+ * @author Riphah
+ */
+public class Triangle {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int rows = 6;
+        for (int i = 1; i <= rows; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* "); 
+            }
+           System.out.println("");
+    }
+    
+}
+}
+
+//CODE :5
+
+public class Factorial {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int num = 5; 
+        int factorial = 1; 
+        int i = 1; 
+
+        while (i <= num) { 
+            factorial *= i; 
+            i++; 
+        }
+
+        System.out.println("Factorial of " + num + " is " + factorial);
+    }
+    }
 
